@@ -1,0 +1,39 @@
+.diplomeContent {
+    background-color: $color-2;
+    border-radius: $borderRaduis;
+    color: $white;
+    min-height: $minHeight;
+    width: 100%;
+    padding-left: 40px;
+    border-radius: $borderRaduis;
+   
+  
+    h2 {
+        margin-top: 45px;
+        color: $color-1;
+    //   margin-bottom: 20px;
+
+      text-align: center;
+    }
+  
+    .diplome-item {
+        background: $color-5;
+        // margin: 0 auto;
+        padding: 1rem 3rem;
+        z-index: 2;
+        border-radius: $borderRaduis;
+        box-shadow: 0 3px 10px #333;
+        width:95%;
+        min-width: 440px;
+        min-height: 200px;
+  
+      h3 {
+        color: $color-1;
+      }
+  
+      p, span {
+        color: $black;
+      }
+    }
+  }
+  

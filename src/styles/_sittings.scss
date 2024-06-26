@@ -48,14 +48,14 @@ a {
 a:visited {
     color: $black;
 }
-.home, .knowledges, .portfolio, .contact {
+.home, .knowledges, .portfolio, .contact , .diplome {
     display: flex;
     @media screen and (max-width:850px){
         display: block !important;
         
     }
 }
-.homeContent, .knowledgesContent ,.portfolioContent, .contactContent{
+.homeContent, .knowledgesContent ,.portfolioContent, .contactContent, .diplomeContent {
     margin-left: .4rem;
     @media screen and (max-width:850px) {
         margin-left: 0 !important;

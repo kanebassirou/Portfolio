@@ -10,20 +10,20 @@ const Hobbies = () => {
           <span>Course à pied</span>
         </li>
         <li className="hobby">
-          <i className="fas fa-hiking"></i>
-          <span>Randonnées</span>
+          <i className="fas fa-chalkboard-teacher"></i>
+          <span>Apprentissage</span>
         </li>
         <li className="hobby">
-          <i className="fas fa-seedling"></i>
-          <span>Permaculture</span>
+          <i className="fas fa-code"></i>
+          <span>La programmation</span>
         </li>
         <li className="hobby">
           <i className="fab fa-bitcoin"></i>
           <span>Cryto-monnaies</span>
         </li>
         <li className="hobby">
-          <i className="fas fa-rocket"></i>
-          <span>Espace</span>
+          <i className="fas fa-search"></i>
+          <span>Googler</span>
         </li>
       </ul>
     </div>

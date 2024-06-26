@@ -23,7 +23,11 @@ const Experience = () => {
       </div>
       <div className="exp-2">
         <h4>Frelence</h4>
-        <h5>2022 - 2023</h5>
+        <h5>2023 - 2024</h5>
+        <p>
+          Conception d'un site e-commerce de vente de poulet pour jeune
+          entrepreneur avicole
+        </p>
         <p></p>
       </div>
     </div>
