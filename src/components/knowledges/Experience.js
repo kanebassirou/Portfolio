@@ -22,13 +22,28 @@ const Experience = () => {
         </p>
       </div>
       <div className="exp-2">
-        <h4>Frelence</h4>
-        <h5>2023 - 2024</h5>
+        <h4>Projets Personnels et Académiques:</h4>
+        <h5>2021 - Présent</h5>
         <p>
-          Conception d'un site e-commerce de vente de poulet pour jeune
-          entrepreneur avicole
+          <i className="fas fa-check-square"></i>
+          Système de ge stion de délibération : Développement en Java. <br />
+          <i className="fas fa-check-square"></i>
+          Site e-commerce pour la vente de poulet: Utilisation de HTML, CSS,
+          Larave l 10, MySQL e t Bootstrap.
+          <br />
+          <i className="fas fa-check-square"></i>
+          GESTIONNAIRE DE TACHES : Utilisation de FLUTTER et la base de données
+          Firebase
+          <br />
+          <i className="fas fa-check-square"></i>
+          GESTION D’UNE APPLICATION DES EMPLOYES : Utilisation de PHP et MongoDB
+          <br />
+          <i className="fas fa-check-square"></i>
+          Portail de réservation de ressources pour l’université Iba Der Thiam
+          de Thiès (Projet de fin cycle ) : Utilisation de HTML, CSS, JavaSc
+          ript, Larave l 10, Tailwind CSS, MySQL et UML.
+          <br />
         </p>
-        <p></p>
       </div>
     </div>
   );

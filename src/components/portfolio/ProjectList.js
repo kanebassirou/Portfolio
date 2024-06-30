@@ -11,8 +11,7 @@ class ProjectList extends Component {
       { id: 3, value: "Laravel" },
       { id: 4, value: "React" },
       { id: 5, value: "Angular" },
-      { id: 6, value: "Flutter" },
-      { id: 7, value: "api" }
+      { id: 6, value: "Flutter" }
     ],
     selectedRadio: "HTML CSS"
   };
@@ -43,6 +42,7 @@ class ProjectList extends Component {
             );
           })}
         </ul>
+
         <div className="projects">
           {projects
             .filter((item) => item.languages.includes(selectedRadio))

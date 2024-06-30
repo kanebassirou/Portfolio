@@ -76,8 +76,14 @@ export const portfolioData = [
   {
     id: 8,
     name: " Un systeme d'authentification ",
-    languages: ["Laravel", "C#", "Tous", "Page 2"],
-    languagesIcons: ["fa-brands fa-unity", "fa-solid fa-code"],
+    languages: ["Laravel", "Boostrap", "HTML CSS"],
+    languagesIcons: [
+      "fab fa-html5",
+      "fab fa-php",
+      "fas fa-database",
+      "fab fa-bootstrap",
+      "fab fa-laravel"
+    ],
     source: "https://github.com/kanebassirou/MyAppLaravel",
     info: "Une interface de systeme d'authentification coder avec la laravel et forty fail",
     picture: require("../media/project8.png")
@@ -92,7 +98,8 @@ export const portfolioData = [
       "fab fa-css3-alt",
       "fab fa-bootstrap",
       "fab fa-php",
-      "fas fa-database"
+      "fas fa-database",
+      "fab fa-laravel"
     ],
     source:
       "https://github.com/kanebassirou/Portail-pour-r-servation-de-ressources",
@@ -103,7 +110,7 @@ export const portfolioData = [
     id: 9,
     name: "appli-countrie",
     languages: ["React"],
-    languagesIcons: ["fas fa-yin-yang", "fab fa-react"],
+    languagesIcons: ["fab fa-js", "fab fa-css3-alt", "fab fa-react"],
     source: "https://github.com/kanebassirou/mini-Projet-react-1",
     info: "Cette application coder avec react pour consolider mes base avec react et la consommation d'un api cette application permet de donner tout les information consernant les pays du monde leur capital et population",
     picture: require("../media/project9.PNG")
@@ -121,12 +128,7 @@ export const portfolioData = [
     id: 12,
     name: "Mon portfolio",
     languages: ["React", "Android", "Tous", "Page 2"],
-    languagesIcons: [
-      "fab fa-js",
-      "fab fa-php",
-      "fab fa-css3-alt",
-      "fab fa-react"
-    ],
+    languagesIcons: ["fab fa-js", "fab fa-css3-alt", "fab fa-react"],
     source: "https://github.com/kanebassirou/mon_cv",
     info: "mon portfolio qui permet de presenter mon cv en ligne et mes projets",
     picture: require("../media/project12.png")
@@ -135,7 +137,7 @@ export const portfolioData = [
     id: 13,
     name: "Systeme de Déliberation",
     languages: ["Java", "Tous", "Page 2"],
-    languagesIcons: ["fab fa-react", "fab fa-code"],
+    languagesIcons: ["fab fa-code", "fas fa-database", "fab fa-java"],
     source:
       "https://github.com/kanebassirou/SystemeDelibration/blob/main/GestionDeliberation.rar",
     info: "Une application developpe en java avec swing qui permet d'ajouter la note des etudiants ,les cours et de faire une deliberation",
@@ -172,5 +174,62 @@ export const portfolioData = [
     source: "https://github.com/Dianavi22/SendNood.exe",
     info: "Une application développer avec sprint-Boot un framework java et l'utilisation d'api react full l'application permet d'enregister les information d'un employée les modifier et les supprimer",
     picture: require("../media/project16.png")
+  },
+  {
+    id: 17,
+    name: "Cahier de texte numerique",
+    languages: ["Laravel", "Mysql", "HTML CSS"],
+    languagesIcons: [
+      "fab fa-js",
+      "fab fa-html5",
+      "fab fa-css3-alt",
+      "fab fa-bootstrap",
+      "fab fa-php",
+      "fas fa-database"
+    ],
+    source: "https://github.com/kanebassirou/Cahier-de-texte-numerique",
+    info: "Une application de Cahier de texte numérique développée avec Laravel, Bootstrap et JavaScript. Ce projet permet de disposer d'un cahier de texte numérique pour faciliter la gestion des devoirs et des leçons. ",
+    picture: require("../media/project17.png")
+  },
+  {
+    id: 18,
+    name: "Sockets en java RMI",
+    languages: ["Java"],
+    languagesIcons: ["fab fa-java", "fas fa-database"],
+    source: "https://github.com/kanebassirou/Sokets",
+    info: "un applcation d’Annuaire Téléphonique des Étudiants de l’UFR SET developper en utilisant les sockets avec java qui la communication entre un client et serveur",
+    picture: require("../media/project18.png")
+  },
+  {
+    id: 19,
+    name: "Maison Vert",
+    languages: ["React"],
+    languagesIcons: ["fab fa-js", "fab fa-css3-alt", "fab fa-react"],
+    source: "https://github.com/kanebassirou/la-maison-jungle",
+    info: "Maison Vert est une application développée avec React, réalisée dans le cadre d'un cours sur OpenClassRoom. Ce projet m'a permis de consolider mes bases en React, en mettant en pratique les notions fondamentales de ce framework.",
+    picture: require("../media/project19.png")
+  },
+  {
+    id: 20,
+    name: "Snapface",
+    languages: ["Angular"],
+    languagesIcons: ["fab fa-js", "fab fa-css3-alt", "fab fa-angular"],
+    source: "https://github.com/kanebassirou/myselfie",
+    info: "Snapface est une application développée avec Angular, réalisée dans le cadre d'un cours sur OpenClassRoom. Ce projet m'a permis de consolider mes bases en Angular en mettant en pratique les concepts appris.",
+    picture: require("../media/project20.png")
+  },
+  {
+    id: 21,
+    name: "Bookcase",
+    languages: ["Angular", "HTML CSS"],
+    languagesIcons: [
+      "fab fa-js",
+      "fab fa-css3-alt",
+      "fab fa-angular",
+      "fas fa-database"
+    ],
+    source: "https://github.com/kanebassirou/bookcase",
+    info: "Bookcase est une application développée avec Angular et utilisant Firebase comme base de données. Cette application permet la gestion des publications de livres, offrant aux utilisateurs connectés la possibilité d'ajouter de nouveaux livres et de consulter ceux déjà disponibles. Ce projet m'a permis de renforcer mes compétences en Angular et Firebase.",
+    picture: require("../media/project21.png")
   }
 ];

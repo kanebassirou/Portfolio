@@ -6,7 +6,7 @@ const Navigation = () => {
     <div className="sidebar">
       <div className="id">
         <div className="idContent">
-          <img src="./media/bk.png" alt="profil-pic" />
+          <img src="./media/D1.png" alt="profil-pic" />
           <h3>Bassirou Kane</h3>
         </div>
       </div>
@@ -48,7 +48,7 @@ const Navigation = () => {
         <ul>
           <li>
             <a
-              href="https://www.google.com"
+              href="https://www.linkedin.com/in/bassirou-kane-39a640229/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -57,7 +57,7 @@ const Navigation = () => {
           </li>
           <li>
             <a
-              href="https://www.google.com"
+              href="https://github.com/kanebassirou"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -66,7 +66,7 @@ const Navigation = () => {
           </li>
           <li>
             <a
-              href="https://www.google.com"
+              href="#https://www.google.com"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -75,7 +75,7 @@ const Navigation = () => {
           </li>
           <li>
             <a
-              href="https://www.google.com"
+              href="#https://www.google.com"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -84,7 +84,7 @@ const Navigation = () => {
           </li>
         </ul>
         <div className="signature">
-          <p>bassirou -2024</p>
+          <p>bassirou -2023</p>
         </div>
       </div>
     </div>

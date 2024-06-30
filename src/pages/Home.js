@@ -8,7 +8,12 @@ const Home = () => {
       <div className="homeContent">
         <div className="content">
           <h1>Bassirou Kane</h1>
-          <h2>Dévelloppeur Full Stack</h2>
+          <h2>Développeur Full Stack</h2>
+          <h5>
+            Bienvenue sur mon portfolio. Je suis Bassirou Kane, un développeur
+            passionné avec une expertise en développement web et mobile.
+            Découvrez mes compétences, mes expériences et mes projets.
+          </h5>
           <div className="pdf">
             <a href="./media/cv.pdf" target="_blank">
               Télécharger cv
