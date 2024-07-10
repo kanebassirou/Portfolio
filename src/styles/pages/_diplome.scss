@@ -1,39 +1,58 @@
-.diplomeContent {
-    background-color: $color-2;
-    border-radius: $borderRaduis;
-    color: $white;
-    min-height: $minHeight;
-    width: 100%;
-    padding-left: 40px;
-    border-radius: $borderRaduis;
-   
-  
-    h2 {
-        margin-top: 45px;
-        color: $color-1;
-    //   margin-bottom: 20px;
+// Styles existants pour .diplomeContent et enfants
 
+.diplomeContent {
+  background-color: $color-2;
+  border-radius: $borderRaduis;
+  color: $white;
+  min-height: $minHeight;
+  width: 100%;
+  padding-left: 40px;
+  border-radius: $borderRaduis;
+
+  h2 {
+      margin-top: 45px;
+      color: $color-1;
       text-align: center;
-    }
-  
-    .diplome-item {
-        background: $color-5;
-        // margin: 0 auto;
-        padding: 1rem 3rem;
-        z-index: 2;
-        border-radius: $borderRaduis;
-        box-shadow: 0 3px 10px #333;
-        width:95%;
-        min-width: 440px;
-        min-height: 200px;
-  
-      h3 {
-        color: $color-1;
-      }
-  
-      p, span {
-        color: $black;
-      }
-    }
   }
-  
+
+  .diplome-item {
+      background: $color-5;
+      padding: 1rem 3rem;
+      z-index: 2;
+      border-radius: $borderRaduis;
+      box-shadow: 0 3px 10px #333;
+      width: 95%;
+      min-width: 440px;
+      min-height: 200px;
+
+      h3 {
+          color: $color-1;
+      }
+
+      p, span {
+          color: $black;
+      }
+  }
+}
+
+// Ajout de styles responsifs
+
+@media screen and (max-width: 768px) {
+  .diplomeContent {
+      padding-left: 20px; // Réduire le padding pour les écrans moyens
+      .diplome-item {
+          min-width: 0; // Supprimer la largeur minimale pour permettre au contenu de s'adapter
+          width: 97%; // Utiliser toute la largeur disponible
+          padding: 1rem; // Réduire le padding
+      }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .diplomeContent {
+      padding-left: 10px; // Réduire encore le padding pour les petits écrans
+      .diplome-item {
+          padding: 0.5rem; // Réduire davantage le padding
+      }
+  }
+}

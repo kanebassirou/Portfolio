@@ -48,7 +48,7 @@ const Contact = () => {
             <a
               href="https://github.com/kanebassirou"
               target="_blank"
-              rel="noopener norenferrer"
+              rel="noreferrer"
             >
               <h4>Github</h4>
               <i className="fab fa-github"></i>
@@ -56,16 +56,12 @@ const Contact = () => {
             <a
               href="https://www.linkedin.com/in/bassirou-kane-39a640229/"
               target="_blank"
-              rel="noopener norenferrer"
+              rel="noreferrer"
             >
               <h4>Linkedin</h4>
               <i className="fab fa-linkedin"></i>
             </a>
-            <a
-              href="#http://www.google.com"
-              target="_blank"
-              rel="noopener norenferrer"
-            >
+            <a href="#http://www.google.com" target="_blank" rel="noreferrer">
               <h4>Twitter</h4>
               <i className="fab fa-twitter"></i>
             </a>

@@ -45,6 +45,7 @@ const Diplome = () => {
               <a
                 href="https://endpoint.educrak.com/certification/652a9ab6f0daa/generate-certificate"
                 target="_blank"
+                rel="noreferrer"
               >
                 {"  "} Certification Laravel ( <span>educrak</span>)
               </a>
@@ -57,8 +58,9 @@ const Diplome = () => {
               <a
                 href="https://formation.force-n.sn/mod/customcert/verify_certificate.php?contextid=139090&code=zZGp3Gtzst&qrcode=1"
                 target="_blank"
+                rel="noreferrer"
               >
-                Certification en Informatique et Internet ( <span>educrak</span>
+                Certification en Informatique et Internet ( <span>FORCE N</span>
                 )
               </a>
             </i>
@@ -70,6 +72,7 @@ const Diplome = () => {
               <a
                 href="https://endpoint.educrak.com/certification/652a96b6cdc92/generate-certificate"
                 target="_blank"
+                rel="noreferrer"
               >
                 Certification Angular ( <span>educrak</span>)
               </a>
@@ -82,6 +85,7 @@ const Diplome = () => {
               <a
                 href="https://endpoint.educrak.com/certification/652a9ab6f0daa/generate-certificate"
                 target="_blank"
+                rel="noreferrer"
               >
                 Certification React ( <span>educrak</span>)
               </a>{" "}

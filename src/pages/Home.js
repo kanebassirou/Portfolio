@@ -15,7 +15,7 @@ const Home = () => {
             Découvrez mes compétences, mes expériences et mes projets.
           </h5>
           <div className="pdf">
-            <a href="./media/cv.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="./media/cv.pdf" target="_blank" rel="noopener">
               Télécharger cv
             </a>
           </div>
