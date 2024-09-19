@@ -1,18 +1,29 @@
-import React, { Component } from "react";
+import React, { Component, createRef } from "react";
 
 export default class Project extends Component {
-  state = {
-    showInfo: false
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      showInfo: false
+    };
+    this.infoRef = createRef();
+  }
+
   handleInfo = () => {
-    this.setState({
-      showInfo: !this.state.showInfo
-    });
+    this.setState(
+      (prevState) => ({
+        showInfo: !prevState.showInfo
+      }),
+      () => {
+        if (this.state.showInfo) {
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        }
+      }
+    );
   };
 
   render() {
     let { name, languagesIcons, source, info, picture } = this.props.item;
-    console.log();
     return (
       <div className="project">
         <div className="icons">
@@ -28,7 +39,7 @@ export default class Project extends Component {
           <i className="fas fa-plus-circle"></i>
         </span>
         {this.state.showInfo && (
-          <div className="showInfos">
+          <div className="showInfos" ref={this.infoRef}>
             <div className="infosContent">
               <div className="head">
                 <h2>{name}</h2>

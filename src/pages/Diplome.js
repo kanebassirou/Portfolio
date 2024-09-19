@@ -91,6 +91,45 @@ const Diplome = () => {
               </a>{" "}
             </i>
           </p>
+          <p>
+            {" "}
+            <i className="fas fa-dot-circle">
+              {"   "}
+              <a
+                href="https://endpoint.educrak.com/certification/652a9ab6f0daa/generate-certificate"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Découvrez le fonctionnement des algorithmes ( <span>OpenClassrooms</span>)
+              </a>{" "}
+            </i>
+          </p>
+          <p>
+            {" "}
+            <i className="fas fa-dot-circle">
+              {"   "}
+              <a
+                href="https://endpoint.educrak.com/certification/652a9ab6f0daa/generate-certificate"
+                target="_blank"
+                rel="noreferrer"
+              >
+               Apprenez à programmer avec JavaScript( <span>OpenClassrooms</span>)
+              </a>{" "}
+            </i>
+          </p>
+          <p>
+            {" "}
+            <i className="fas fa-dot-circle">
+              {"   "}
+              <a
+                href="https://endpoint.educrak.com/certification/652a9ab6f0daa/generate-certificate"
+                target="_blank"
+                rel="noreferrer"
+              >
+               Découvrez  le cloud avec Amazon Web Services( <span>OpenClassrooms</span>)
+              </a>{" "}
+            </i>
+          </p>
         </div>
       </div>
     </div>

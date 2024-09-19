@@ -6,8 +6,7 @@ const Experience = () => {
       <h3>Expérience</h3>
       <div className="exp-1">
         <h4>
-          Technicien chez Giga Électronique (Travail occasionnel comme
-          prestataire)
+          Stagiere chez Giga Électronique 
         </h4>
         <h5>2022 - 2023</h5>
         <p>
@@ -17,8 +16,7 @@ const Experience = () => {
           <i className="fas fa-check-square"></i> Résolution de pannes
           matérielles et logicielles. <br />
           <i className="fas fa-check-square"></i>
-          Interventions auprès de divers clients, dont la Bank of Africa à
-          Diourbel.
+          Interventions auprès de divers clients .
         </p>
       </div>
       <div className="exp-2">

@@ -60,7 +60,7 @@ export const portfolioData = [
     name: "Projet gestion des etudiant",
     languages: ["HTML CSS"],
     languagesIcons: ["fa-brands fa-python"],
-    source: "https://github.com/Dianavi22/Pygamon",
+    source: "#",
     info: "Un projet en c qui permet l' utilisation de liste chaine pour la gestion des etudiant et l'utilisation des fichier en c",
     picture: require("../media/project6.png")
   },
@@ -120,7 +120,7 @@ export const portfolioData = [
     name: "Reservation de l'hôtel",
     languages: ["Page 3", "Flutter"],
     languagesIcons: ["fab fa-android"],
-    source: "https://github.com/Dianavi22/SendNood.exe",
+    source: "https://github.com/kanebassirou/hotels-flutter",
     info: "Une application mobile développe avec flutter qui permet la reservation d'un hotel ou recherche un hotel en cas de besoins d'une reservation",
     picture: require("../media/project11.png")
   },
@@ -148,7 +148,7 @@ export const portfolioData = [
     name: "Une gestionnaire des taches ",
     languages: ["Mobile", "Flutter", "Tous", "Page 3"],
     languagesIcons: ["fa-solid fa-code"],
-    source: "https://github.com/Dianavi22/conf-appli",
+    source: "https://github.com/kanebassirou/gestionnaire_des_tache",
     info: "Une application de gestionnaire des tache qui permet d'ajouter un tache de les modifier et supprimer",
     picture: require("../media/project14.png")
   },
@@ -157,21 +157,21 @@ export const portfolioData = [
     name: "TO list",
     languages: ["Page 3", "Flutter"],
     languagesIcons: ["fa-brands fa-unity", "fa-solid fa-code"],
-    source: "https://github.com/Dianavi22/Tower-Defense-test",
+    source: "#https://github.com/kanebassirou/gestionnaire_des_tache",
     info: "Une application de TO Do List développer avec flutter",
     picture: require("../media/project15.png")
   },
   {
     id: 16,
     name: "Gestion des employé",
-    languages: ["Java", "Flutter"],
+    languages: ["Java",],
     languagesIcons: [
       "fab fa-js",
       "fab fa-php",
       "fab fa-css3-alt",
       "fab fa-java"
     ],
-    source: "https://github.com/Dianavi22/SendNood.exe",
+    source: "https://github.com/kanebassirou/ApiResful-Avec-SprintBoot",
     info: "Une application développer avec sprint-Boot un framework java et l'utilisation d'api react full l'application permet d'enregister les information d'un employée les modifier et les supprimer",
     picture: require("../media/project16.png")
   },

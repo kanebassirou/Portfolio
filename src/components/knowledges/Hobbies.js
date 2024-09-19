@@ -17,10 +17,10 @@ const Hobbies = () => {
           <i className="fas fa-code"></i>
           <span>La programmation</span>
         </li>
-        <li className="hobby">
+        {/* <li className="hobby">
           <i className="fab fa-bitcoin"></i>
           <span>Cryto-monnaies</span>
-        </li>
+        </li> */}
         <li className="hobby">
           <i className="fas fa-search"></i>
           <span>Googler</span>

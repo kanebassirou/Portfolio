@@ -8,7 +8,7 @@ const Navigation = () => {
         <div className="idContent">
           <img
             src={`${process.env.PUBLIC_URL}/media/D1.png`}
-            alt="profil-pic"
+      alt="Photo de Bassirou Kane, développeur full stack"
           />
           <h3>Bassirou Kane</h3>
         </div>

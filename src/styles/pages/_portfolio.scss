@@ -233,6 +233,8 @@
   
       .infosContent {
         width: 100% !important;
+        padding: 0.3rem;
+        font-size: 0.7rem;
       }
     }
   }
@@ -248,10 +250,36 @@
       .project {
         grid-template-rows: 30px 40px 80px 40px !important;
         width: 98% !important;
+
+        .infosContent {
+          width: 100% !important;
+          padding: 0.5rem;
+          font-size: 0.5rem;
+        }
+        h2 {
+          font-size: 1rem;
+        }
+    
+        .text {
+          font-size: 0.8rem;
+        }
+    
+        .button {
+          padding: 0.3rem;
+          font-size: 0.7rem;
+        }
+    
+      
   
         img {
           height: 100% !important;
         }
+        .return {
+          width: 100px;
+          padding: 0.3rem;
+          font-size: 0.7rem;
+        }
+      
       }
     }
   }

@@ -6,7 +6,7 @@ const Home = () => {
     <div className="home">
       <Navigation />
       <div className="homeContent">
-        <div className="content">
+      <main className="content">
           <h1>Bassirou Kane</h1>
           <h2>Développeur Full Stack</h2>
           <h5>
@@ -15,12 +15,19 @@ const Home = () => {
             Découvrez mes compétences, mes expériences et mes projets.
           </h5>
           <div className="pdf">
-            <a href="./media/cv.pdf" target="_blank" rel="noopener">
+            <a
+              href={`${process.env.PUBLIC_URL}/media/CV.pdf`}
+              download="CV_Bassirou_Kane.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
               Télécharger cv
             </a>
           </div>
+          </main> 
         </div>
-      </div>
+     
+      
     </div>
   );
 };

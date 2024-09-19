@@ -38,9 +38,7 @@ const OthersSkill = () => {
           <li>
             <i className="fas fa-check-square"></i> Canva
           </li>
-          <li>
-            <i className="fas fa-check-square"></i>scrum
-          </li>
+       
           <li>
             <i className="fas fa-check-square"></i>communication
           </li>
